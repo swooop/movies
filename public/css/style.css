@@ -1,0 +1,74 @@
+body{
+  background-color: #43212E;
+
+}
+
+p{
+  font-size: :18px;
+  font-family: 'Noto Serif', serif;
+}
+
+.exp{
+  padding: 10px 50px;
+}
+
+.headline {
+  font-family: 'Special Elite', sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.finder {
+  width: 100%;
+  background-color: #D9666F;
+
+}
+
+.finder h3 {
+  text-align: center;
+}
+
+.results {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #F2D57E;
+
+}
+
+.center{
+  display:block;
+  text-align:center;
+  padding: 20px 50px;
+}
+
+
+
+/* button */
+.button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  background-color:#ffc477;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #eeb44f;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #cc9f52;
+}
+
+.button:hover {
+  background-color:#fb9e25;
+}
+
+.button:active {
+  position:relative;
+  top:1px;
+}

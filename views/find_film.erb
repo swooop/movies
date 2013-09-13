@@ -1,0 +1,40 @@
+
+<div id= "container">
+  <div class="finder">
+    <div class = "logo">
+    <h1 class = "headline">Giant Internetz Moviez Searchez</h1>
+    </div>
+
+  <div class = "interest">  
+    <form action="/film" method="get">
+      <input type="text" id ="film_title" name="title" placeholder="Film title...">
+      <input class = "button" type="submit" value="Search this woeful index!">
+    </form>
+  </div>
+
+  </div>
+
+  <div class = "results">
+
+    <% if @hash.present? %>
+    <h2 class = "headline"><%= @hash['Title'] %></h2>
+    <img class = "center" src ="<%= @hash['Poster'] %>" />
+    <% end %>
+    
+    <div class = "exp">
+    <% if @hash.present? %>
+    <p><%= @hash['Plot'] %></p>
+    <% end %>
+    </div>
+
+  </div>
+
+  <footer class = "finder">
+    <h3> Don't come back here it's awful </h3>
+  </footer>
+  
+
+  
+</div>
+
+
